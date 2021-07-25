@@ -1,0 +1,22 @@
+{
+  "name": "summer1400-fe-classes",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "sass --watch styles/scss:styles/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Star-Academy/Summer1400-FE-Classes.git"
+  },
+  "author": "BijanProgrammer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Star-Academy/Summer1400-FE-Classes/issues"
+  },
+  "homepage": "https://github.com/Star-Academy/Summer1400-FE-Classes#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "prettier": "^2.3.2",
+    "sass": "^1.36.0"
+  }
+}
