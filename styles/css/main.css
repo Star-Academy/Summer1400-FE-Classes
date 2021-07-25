@@ -13,7 +13,2211 @@ html {
 }
 
 body {
+  background-color: #cdcdcd;
+  display: grid;
+  place-items: center;
   min-height: 100vh;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  list-style: none;
+}
+ul li {
+  background-color: #fafafa;
+  display: grid;
+  place-items: center;
+  width: 10rem;
+  height: 10rem;
+  font-size: 1.6rem;
+}
+ul li h3 {
+  font-size: 2rem;
+}
+ul li:nth-child(1) {
+  background-color: red;
+}
+ul li::after {
+  content: "red";
+}
+ul li:nth-child(2) {
+  background-color: #ff0400;
+}
+ul li::after {
+  content: "#ff0400";
+}
+ul li:nth-child(3) {
+  background-color: #ff0900;
+}
+ul li::after {
+  content: "#ff0900";
+}
+ul li:nth-child(4) {
+  background-color: #ff0d00;
+}
+ul li::after {
+  content: "#ff0d00";
+}
+ul li:nth-child(5) {
+  background-color: #ff1100;
+}
+ul li::after {
+  content: "#ff1100";
+}
+ul li:nth-child(6) {
+  background-color: #ff1500;
+}
+ul li::after {
+  content: "#ff1500";
+}
+ul li:nth-child(7) {
+  background-color: #ff1a00;
+}
+ul li::after {
+  content: "#ff1a00";
+}
+ul li:nth-child(8) {
+  background-color: #ff1e00;
+}
+ul li::after {
+  content: "#ff1e00";
+}
+ul li:nth-child(9) {
+  background-color: #ff2200;
+}
+ul li::after {
+  content: "#ff2200";
+}
+ul li:nth-child(10) {
+  background-color: #ff2600;
+}
+ul li::after {
+  content: "#ff2600";
+}
+ul li:nth-child(11) {
+  background-color: #ff2b00;
+}
+ul li::after {
+  content: "#ff2b00";
+}
+ul li:nth-child(12) {
+  background-color: #ff2f00;
+}
+ul li::after {
+  content: "#ff2f00";
+}
+ul li:nth-child(13) {
+  background-color: #ff3300;
+}
+ul li::after {
+  content: "#ff3300";
+}
+ul li:nth-child(14) {
+  background-color: #ff3700;
+}
+ul li::after {
+  content: "#ff3700";
+}
+ul li:nth-child(15) {
+  background-color: #ff3c00;
+}
+ul li::after {
+  content: "#ff3c00";
+}
+ul li:nth-child(16) {
+  background-color: #ff4000;
+}
+ul li::after {
+  content: "#ff4000";
+}
+ul li:nth-child(17) {
+  background-color: #ff4400;
+}
+ul li::after {
+  content: "#ff4400";
+}
+ul li:nth-child(18) {
+  background-color: #ff4800;
+}
+ul li::after {
+  content: "#ff4800";
+}
+ul li:nth-child(19) {
+  background-color: #ff4d00;
+}
+ul li::after {
+  content: "#ff4d00";
+}
+ul li:nth-child(20) {
+  background-color: #ff5100;
+}
+ul li::after {
+  content: "#ff5100";
+}
+ul li:nth-child(21) {
+  background-color: #ff5500;
+}
+ul li::after {
+  content: "#ff5500";
+}
+ul li:nth-child(22) {
+  background-color: #ff5900;
+}
+ul li::after {
+  content: "#ff5900";
+}
+ul li:nth-child(23) {
+  background-color: #ff5e00;
+}
+ul li::after {
+  content: "#ff5e00";
+}
+ul li:nth-child(24) {
+  background-color: #ff6200;
+}
+ul li::after {
+  content: "#ff6200";
+}
+ul li:nth-child(25) {
+  background-color: #ff6600;
+}
+ul li::after {
+  content: "#ff6600";
+}
+ul li:nth-child(26) {
+  background-color: #ff6a00;
+}
+ul li::after {
+  content: "#ff6a00";
+}
+ul li:nth-child(27) {
+  background-color: #ff6f00;
+}
+ul li::after {
+  content: "#ff6f00";
+}
+ul li:nth-child(28) {
+  background-color: #ff7300;
+}
+ul li::after {
+  content: "#ff7300";
+}
+ul li:nth-child(29) {
+  background-color: #ff7700;
+}
+ul li::after {
+  content: "#ff7700";
+}
+ul li:nth-child(30) {
+  background-color: #ff7b00;
+}
+ul li::after {
+  content: "#ff7b00";
+}
+ul li:nth-child(31) {
+  background-color: #ff8000;
+}
+ul li::after {
+  content: "#ff8000";
+}
+ul li:nth-child(32) {
+  background-color: #ff8400;
+}
+ul li::after {
+  content: "#ff8400";
+}
+ul li:nth-child(33) {
+  background-color: #ff8800;
+}
+ul li::after {
+  content: "#ff8800";
+}
+ul li:nth-child(34) {
+  background-color: darkorange;
+}
+ul li::after {
+  content: "darkorange";
+}
+ul li:nth-child(35) {
+  background-color: #ff9100;
+}
+ul li::after {
+  content: "#ff9100";
+}
+ul li:nth-child(36) {
+  background-color: #ff9500;
+}
+ul li::after {
+  content: "#ff9500";
+}
+ul li:nth-child(37) {
+  background-color: #ff9900;
+}
+ul li::after {
+  content: "#ff9900";
+}
+ul li:nth-child(38) {
+  background-color: #ff9d00;
+}
+ul li::after {
+  content: "#ff9d00";
+}
+ul li:nth-child(39) {
+  background-color: #ffa200;
+}
+ul li::after {
+  content: "#ffa200";
+}
+ul li:nth-child(40) {
+  background-color: #ffa600;
+}
+ul li::after {
+  content: "#ffa600";
+}
+ul li:nth-child(41) {
+  background-color: #ffaa00;
+}
+ul li::after {
+  content: "#ffaa00";
+}
+ul li:nth-child(42) {
+  background-color: #ffae00;
+}
+ul li::after {
+  content: "#ffae00";
+}
+ul li:nth-child(43) {
+  background-color: #ffb300;
+}
+ul li::after {
+  content: "#ffb300";
+}
+ul li:nth-child(44) {
+  background-color: #ffb700;
+}
+ul li::after {
+  content: "#ffb700";
+}
+ul li:nth-child(45) {
+  background-color: #ffbb00;
+}
+ul li::after {
+  content: "#ffbb00";
+}
+ul li:nth-child(46) {
+  background-color: #ffbf00;
+}
+ul li::after {
+  content: "#ffbf00";
+}
+ul li:nth-child(47) {
+  background-color: #ffc400;
+}
+ul li::after {
+  content: "#ffc400";
+}
+ul li:nth-child(48) {
+  background-color: #ffc800;
+}
+ul li::after {
+  content: "#ffc800";
+}
+ul li:nth-child(49) {
+  background-color: #ffcc00;
+}
+ul li::after {
+  content: "#ffcc00";
+}
+ul li:nth-child(50) {
+  background-color: #ffd000;
+}
+ul li::after {
+  content: "#ffd000";
+}
+ul li:nth-child(51) {
+  background-color: #ffd500;
+}
+ul li::after {
+  content: "#ffd500";
+}
+ul li:nth-child(52) {
+  background-color: #ffd900;
+}
+ul li::after {
+  content: "#ffd900";
+}
+ul li:nth-child(53) {
+  background-color: #ffdd00;
+}
+ul li::after {
+  content: "#ffdd00";
+}
+ul li:nth-child(54) {
+  background-color: #ffe100;
+}
+ul li::after {
+  content: "#ffe100";
+}
+ul li:nth-child(55) {
+  background-color: #ffe600;
+}
+ul li::after {
+  content: "#ffe600";
+}
+ul li:nth-child(56) {
+  background-color: #ffea00;
+}
+ul li::after {
+  content: "#ffea00";
+}
+ul li:nth-child(57) {
+  background-color: #ffee00;
+}
+ul li::after {
+  content: "#ffee00";
+}
+ul li:nth-child(58) {
+  background-color: #fff200;
+}
+ul li::after {
+  content: "#fff200";
+}
+ul li:nth-child(59) {
+  background-color: #fff700;
+}
+ul li::after {
+  content: "#fff700";
+}
+ul li:nth-child(60) {
+  background-color: #fffb00;
+}
+ul li::after {
+  content: "#fffb00";
+}
+ul li:nth-child(61) {
+  background-color: yellow;
+}
+ul li::after {
+  content: "yellow";
+}
+ul li:nth-child(62) {
+  background-color: #fbff00;
+}
+ul li::after {
+  content: "#fbff00";
+}
+ul li:nth-child(63) {
+  background-color: #f7ff00;
+}
+ul li::after {
+  content: "#f7ff00";
+}
+ul li:nth-child(64) {
+  background-color: #f2ff00;
+}
+ul li::after {
+  content: "#f2ff00";
+}
+ul li:nth-child(65) {
+  background-color: #eeff00;
+}
+ul li::after {
+  content: "#eeff00";
+}
+ul li:nth-child(66) {
+  background-color: #eaff00;
+}
+ul li::after {
+  content: "#eaff00";
+}
+ul li:nth-child(67) {
+  background-color: #e6ff00;
+}
+ul li::after {
+  content: "#e6ff00";
+}
+ul li:nth-child(68) {
+  background-color: #e1ff00;
+}
+ul li::after {
+  content: "#e1ff00";
+}
+ul li:nth-child(69) {
+  background-color: #ddff00;
+}
+ul li::after {
+  content: "#ddff00";
+}
+ul li:nth-child(70) {
+  background-color: #d9ff00;
+}
+ul li::after {
+  content: "#d9ff00";
+}
+ul li:nth-child(71) {
+  background-color: #d5ff00;
+}
+ul li::after {
+  content: "#d5ff00";
+}
+ul li:nth-child(72) {
+  background-color: #d0ff00;
+}
+ul li::after {
+  content: "#d0ff00";
+}
+ul li:nth-child(73) {
+  background-color: #ccff00;
+}
+ul li::after {
+  content: "#ccff00";
+}
+ul li:nth-child(74) {
+  background-color: #c8ff00;
+}
+ul li::after {
+  content: "#c8ff00";
+}
+ul li:nth-child(75) {
+  background-color: #c4ff00;
+}
+ul li::after {
+  content: "#c4ff00";
+}
+ul li:nth-child(76) {
+  background-color: #bfff00;
+}
+ul li::after {
+  content: "#bfff00";
+}
+ul li:nth-child(77) {
+  background-color: #bbff00;
+}
+ul li::after {
+  content: "#bbff00";
+}
+ul li:nth-child(78) {
+  background-color: #b7ff00;
+}
+ul li::after {
+  content: "#b7ff00";
+}
+ul li:nth-child(79) {
+  background-color: #b3ff00;
+}
+ul li::after {
+  content: "#b3ff00";
+}
+ul li:nth-child(80) {
+  background-color: #aeff00;
+}
+ul li::after {
+  content: "#aeff00";
+}
+ul li:nth-child(81) {
+  background-color: #aaff00;
+}
+ul li::after {
+  content: "#aaff00";
+}
+ul li:nth-child(82) {
+  background-color: #a6ff00;
+}
+ul li::after {
+  content: "#a6ff00";
+}
+ul li:nth-child(83) {
+  background-color: #a2ff00;
+}
+ul li::after {
+  content: "#a2ff00";
+}
+ul li:nth-child(84) {
+  background-color: #9dff00;
+}
+ul li::after {
+  content: "#9dff00";
+}
+ul li:nth-child(85) {
+  background-color: #99ff00;
+}
+ul li::after {
+  content: "#99ff00";
+}
+ul li:nth-child(86) {
+  background-color: #95ff00;
+}
+ul li::after {
+  content: "#95ff00";
+}
+ul li:nth-child(87) {
+  background-color: #91ff00;
+}
+ul li::after {
+  content: "#91ff00";
+}
+ul li:nth-child(88) {
+  background-color: #8cff00;
+}
+ul li::after {
+  content: "#8cff00";
+}
+ul li:nth-child(89) {
+  background-color: #88ff00;
+}
+ul li::after {
+  content: "#88ff00";
+}
+ul li:nth-child(90) {
+  background-color: #84ff00;
+}
+ul li::after {
+  content: "#84ff00";
+}
+ul li:nth-child(91) {
+  background-color: #80ff00;
+}
+ul li::after {
+  content: "#80ff00";
+}
+ul li:nth-child(92) {
+  background-color: #7bff00;
+}
+ul li::after {
+  content: "#7bff00";
+}
+ul li:nth-child(93) {
+  background-color: #77ff00;
+}
+ul li::after {
+  content: "#77ff00";
+}
+ul li:nth-child(94) {
+  background-color: #73ff00;
+}
+ul li::after {
+  content: "#73ff00";
+}
+ul li:nth-child(95) {
+  background-color: #6fff00;
+}
+ul li::after {
+  content: "#6fff00";
+}
+ul li:nth-child(96) {
+  background-color: #6aff00;
+}
+ul li::after {
+  content: "#6aff00";
+}
+ul li:nth-child(97) {
+  background-color: #66ff00;
+}
+ul li::after {
+  content: "#66ff00";
+}
+ul li:nth-child(98) {
+  background-color: #62ff00;
+}
+ul li::after {
+  content: "#62ff00";
+}
+ul li:nth-child(99) {
+  background-color: #5eff00;
+}
+ul li::after {
+  content: "#5eff00";
+}
+ul li:nth-child(100) {
+  background-color: #59ff00;
+}
+ul li::after {
+  content: "#59ff00";
+}
+ul li:nth-child(101) {
+  background-color: #55ff00;
+}
+ul li::after {
+  content: "#55ff00";
+}
+ul li:nth-child(102) {
+  background-color: #51ff00;
+}
+ul li::after {
+  content: "#51ff00";
+}
+ul li:nth-child(103) {
+  background-color: #4dff00;
+}
+ul li::after {
+  content: "#4dff00";
+}
+ul li:nth-child(104) {
+  background-color: #48ff00;
+}
+ul li::after {
+  content: "#48ff00";
+}
+ul li:nth-child(105) {
+  background-color: #44ff00;
+}
+ul li::after {
+  content: "#44ff00";
+}
+ul li:nth-child(106) {
+  background-color: #40ff00;
+}
+ul li::after {
+  content: "#40ff00";
+}
+ul li:nth-child(107) {
+  background-color: #3cff00;
+}
+ul li::after {
+  content: "#3cff00";
+}
+ul li:nth-child(108) {
+  background-color: #37ff00;
+}
+ul li::after {
+  content: "#37ff00";
+}
+ul li:nth-child(109) {
+  background-color: #33ff00;
+}
+ul li::after {
+  content: "#33ff00";
+}
+ul li:nth-child(110) {
+  background-color: #2fff00;
+}
+ul li::after {
+  content: "#2fff00";
+}
+ul li:nth-child(111) {
+  background-color: #2bff00;
+}
+ul li::after {
+  content: "#2bff00";
+}
+ul li:nth-child(112) {
+  background-color: #26ff00;
+}
+ul li::after {
+  content: "#26ff00";
+}
+ul li:nth-child(113) {
+  background-color: #22ff00;
+}
+ul li::after {
+  content: "#22ff00";
+}
+ul li:nth-child(114) {
+  background-color: #1eff00;
+}
+ul li::after {
+  content: "#1eff00";
+}
+ul li:nth-child(115) {
+  background-color: #1aff00;
+}
+ul li::after {
+  content: "#1aff00";
+}
+ul li:nth-child(116) {
+  background-color: #15ff00;
+}
+ul li::after {
+  content: "#15ff00";
+}
+ul li:nth-child(117) {
+  background-color: #11ff00;
+}
+ul li::after {
+  content: "#11ff00";
+}
+ul li:nth-child(118) {
+  background-color: #0dff00;
+}
+ul li::after {
+  content: "#0dff00";
+}
+ul li:nth-child(119) {
+  background-color: #09ff00;
+}
+ul li::after {
+  content: "#09ff00";
+}
+ul li:nth-child(120) {
+  background-color: #04ff00;
+}
+ul li::after {
+  content: "#04ff00";
+}
+ul li:nth-child(121) {
+  background-color: lime;
+}
+ul li::after {
+  content: "lime";
+}
+ul li:nth-child(122) {
+  background-color: #00ff04;
+}
+ul li::after {
+  content: "#00ff04";
+}
+ul li:nth-child(123) {
+  background-color: #00ff09;
+}
+ul li::after {
+  content: "#00ff09";
+}
+ul li:nth-child(124) {
+  background-color: #00ff0d;
+}
+ul li::after {
+  content: "#00ff0d";
+}
+ul li:nth-child(125) {
+  background-color: #00ff11;
+}
+ul li::after {
+  content: "#00ff11";
+}
+ul li:nth-child(126) {
+  background-color: #00ff15;
+}
+ul li::after {
+  content: "#00ff15";
+}
+ul li:nth-child(127) {
+  background-color: #00ff1a;
+}
+ul li::after {
+  content: "#00ff1a";
+}
+ul li:nth-child(128) {
+  background-color: #00ff1e;
+}
+ul li::after {
+  content: "#00ff1e";
+}
+ul li:nth-child(129) {
+  background-color: #00ff22;
+}
+ul li::after {
+  content: "#00ff22";
+}
+ul li:nth-child(130) {
+  background-color: #00ff26;
+}
+ul li::after {
+  content: "#00ff26";
+}
+ul li:nth-child(131) {
+  background-color: #00ff2b;
+}
+ul li::after {
+  content: "#00ff2b";
+}
+ul li:nth-child(132) {
+  background-color: #00ff2f;
+}
+ul li::after {
+  content: "#00ff2f";
+}
+ul li:nth-child(133) {
+  background-color: #00ff33;
+}
+ul li::after {
+  content: "#00ff33";
+}
+ul li:nth-child(134) {
+  background-color: #00ff37;
+}
+ul li::after {
+  content: "#00ff37";
+}
+ul li:nth-child(135) {
+  background-color: #00ff3c;
+}
+ul li::after {
+  content: "#00ff3c";
+}
+ul li:nth-child(136) {
+  background-color: #00ff40;
+}
+ul li::after {
+  content: "#00ff40";
+}
+ul li:nth-child(137) {
+  background-color: #00ff44;
+}
+ul li::after {
+  content: "#00ff44";
+}
+ul li:nth-child(138) {
+  background-color: #00ff48;
+}
+ul li::after {
+  content: "#00ff48";
+}
+ul li:nth-child(139) {
+  background-color: #00ff4d;
+}
+ul li::after {
+  content: "#00ff4d";
+}
+ul li:nth-child(140) {
+  background-color: #00ff51;
+}
+ul li::after {
+  content: "#00ff51";
+}
+ul li:nth-child(141) {
+  background-color: #00ff55;
+}
+ul li::after {
+  content: "#00ff55";
+}
+ul li:nth-child(142) {
+  background-color: #00ff59;
+}
+ul li::after {
+  content: "#00ff59";
+}
+ul li:nth-child(143) {
+  background-color: #00ff5e;
+}
+ul li::after {
+  content: "#00ff5e";
+}
+ul li:nth-child(144) {
+  background-color: #00ff62;
+}
+ul li::after {
+  content: "#00ff62";
+}
+ul li:nth-child(145) {
+  background-color: #00ff66;
+}
+ul li::after {
+  content: "#00ff66";
+}
+ul li:nth-child(146) {
+  background-color: #00ff6a;
+}
+ul li::after {
+  content: "#00ff6a";
+}
+ul li:nth-child(147) {
+  background-color: #00ff6f;
+}
+ul li::after {
+  content: "#00ff6f";
+}
+ul li:nth-child(148) {
+  background-color: #00ff73;
+}
+ul li::after {
+  content: "#00ff73";
+}
+ul li:nth-child(149) {
+  background-color: #00ff77;
+}
+ul li::after {
+  content: "#00ff77";
+}
+ul li:nth-child(150) {
+  background-color: #00ff7b;
+}
+ul li::after {
+  content: "#00ff7b";
+}
+ul li:nth-child(151) {
+  background-color: #00ff80;
+}
+ul li::after {
+  content: "#00ff80";
+}
+ul li:nth-child(152) {
+  background-color: #00ff84;
+}
+ul li::after {
+  content: "#00ff84";
+}
+ul li:nth-child(153) {
+  background-color: #00ff88;
+}
+ul li::after {
+  content: "#00ff88";
+}
+ul li:nth-child(154) {
+  background-color: #00ff8c;
+}
+ul li::after {
+  content: "#00ff8c";
+}
+ul li:nth-child(155) {
+  background-color: #00ff91;
+}
+ul li::after {
+  content: "#00ff91";
+}
+ul li:nth-child(156) {
+  background-color: #00ff95;
+}
+ul li::after {
+  content: "#00ff95";
+}
+ul li:nth-child(157) {
+  background-color: #00ff99;
+}
+ul li::after {
+  content: "#00ff99";
+}
+ul li:nth-child(158) {
+  background-color: #00ff9d;
+}
+ul li::after {
+  content: "#00ff9d";
+}
+ul li:nth-child(159) {
+  background-color: #00ffa2;
+}
+ul li::after {
+  content: "#00ffa2";
+}
+ul li:nth-child(160) {
+  background-color: #00ffa6;
+}
+ul li::after {
+  content: "#00ffa6";
+}
+ul li:nth-child(161) {
+  background-color: #00ffaa;
+}
+ul li::after {
+  content: "#00ffaa";
+}
+ul li:nth-child(162) {
+  background-color: #00ffae;
+}
+ul li::after {
+  content: "#00ffae";
+}
+ul li:nth-child(163) {
+  background-color: #00ffb3;
+}
+ul li::after {
+  content: "#00ffb3";
+}
+ul li:nth-child(164) {
+  background-color: #00ffb7;
+}
+ul li::after {
+  content: "#00ffb7";
+}
+ul li:nth-child(165) {
+  background-color: #00ffbb;
+}
+ul li::after {
+  content: "#00ffbb";
+}
+ul li:nth-child(166) {
+  background-color: #00ffbf;
+}
+ul li::after {
+  content: "#00ffbf";
+}
+ul li:nth-child(167) {
+  background-color: #00ffc4;
+}
+ul li::after {
+  content: "#00ffc4";
+}
+ul li:nth-child(168) {
+  background-color: #00ffc8;
+}
+ul li::after {
+  content: "#00ffc8";
+}
+ul li:nth-child(169) {
+  background-color: #00ffcc;
+}
+ul li::after {
+  content: "#00ffcc";
+}
+ul li:nth-child(170) {
+  background-color: #00ffd0;
+}
+ul li::after {
+  content: "#00ffd0";
+}
+ul li:nth-child(171) {
+  background-color: #00ffd5;
+}
+ul li::after {
+  content: "#00ffd5";
+}
+ul li:nth-child(172) {
+  background-color: #00ffd9;
+}
+ul li::after {
+  content: "#00ffd9";
+}
+ul li:nth-child(173) {
+  background-color: #00ffdd;
+}
+ul li::after {
+  content: "#00ffdd";
+}
+ul li:nth-child(174) {
+  background-color: #00ffe1;
+}
+ul li::after {
+  content: "#00ffe1";
+}
+ul li:nth-child(175) {
+  background-color: #00ffe6;
+}
+ul li::after {
+  content: "#00ffe6";
+}
+ul li:nth-child(176) {
+  background-color: #00ffea;
+}
+ul li::after {
+  content: "#00ffea";
+}
+ul li:nth-child(177) {
+  background-color: #00ffee;
+}
+ul li::after {
+  content: "#00ffee";
+}
+ul li:nth-child(178) {
+  background-color: #00fff2;
+}
+ul li::after {
+  content: "#00fff2";
+}
+ul li:nth-child(179) {
+  background-color: #00fff7;
+}
+ul li::after {
+  content: "#00fff7";
+}
+ul li:nth-child(180) {
+  background-color: #00fffb;
+}
+ul li::after {
+  content: "#00fffb";
+}
+ul li:nth-child(181) {
+  background-color: aqua;
+}
+ul li::after {
+  content: "aqua";
+}
+ul li:nth-child(182) {
+  background-color: #00fbff;
+}
+ul li::after {
+  content: "#00fbff";
+}
+ul li:nth-child(183) {
+  background-color: #00f7ff;
+}
+ul li::after {
+  content: "#00f7ff";
+}
+ul li:nth-child(184) {
+  background-color: #00f2ff;
+}
+ul li::after {
+  content: "#00f2ff";
+}
+ul li:nth-child(185) {
+  background-color: #00eeff;
+}
+ul li::after {
+  content: "#00eeff";
+}
+ul li:nth-child(186) {
+  background-color: #00eaff;
+}
+ul li::after {
+  content: "#00eaff";
+}
+ul li:nth-child(187) {
+  background-color: #00e6ff;
+}
+ul li::after {
+  content: "#00e6ff";
+}
+ul li:nth-child(188) {
+  background-color: #00e1ff;
+}
+ul li::after {
+  content: "#00e1ff";
+}
+ul li:nth-child(189) {
+  background-color: #00ddff;
+}
+ul li::after {
+  content: "#00ddff";
+}
+ul li:nth-child(190) {
+  background-color: #00d9ff;
+}
+ul li::after {
+  content: "#00d9ff";
+}
+ul li:nth-child(191) {
+  background-color: #00d5ff;
+}
+ul li::after {
+  content: "#00d5ff";
+}
+ul li:nth-child(192) {
+  background-color: #00d0ff;
+}
+ul li::after {
+  content: "#00d0ff";
+}
+ul li:nth-child(193) {
+  background-color: #00ccff;
+}
+ul li::after {
+  content: "#00ccff";
+}
+ul li:nth-child(194) {
+  background-color: #00c8ff;
+}
+ul li::after {
+  content: "#00c8ff";
+}
+ul li:nth-child(195) {
+  background-color: #00c4ff;
+}
+ul li::after {
+  content: "#00c4ff";
+}
+ul li:nth-child(196) {
+  background-color: deepskyblue;
+}
+ul li::after {
+  content: "deepskyblue";
+}
+ul li:nth-child(197) {
+  background-color: #00bbff;
+}
+ul li::after {
+  content: "#00bbff";
+}
+ul li:nth-child(198) {
+  background-color: #00b7ff;
+}
+ul li::after {
+  content: "#00b7ff";
+}
+ul li:nth-child(199) {
+  background-color: #00b3ff;
+}
+ul li::after {
+  content: "#00b3ff";
+}
+ul li:nth-child(200) {
+  background-color: #00aeff;
+}
+ul li::after {
+  content: "#00aeff";
+}
+ul li:nth-child(201) {
+  background-color: #00aaff;
+}
+ul li::after {
+  content: "#00aaff";
+}
+ul li:nth-child(202) {
+  background-color: #00a6ff;
+}
+ul li::after {
+  content: "#00a6ff";
+}
+ul li:nth-child(203) {
+  background-color: #00a2ff;
+}
+ul li::after {
+  content: "#00a2ff";
+}
+ul li:nth-child(204) {
+  background-color: #009dff;
+}
+ul li::after {
+  content: "#009dff";
+}
+ul li:nth-child(205) {
+  background-color: #0099ff;
+}
+ul li::after {
+  content: "#0099ff";
+}
+ul li:nth-child(206) {
+  background-color: #0095ff;
+}
+ul li::after {
+  content: "#0095ff";
+}
+ul li:nth-child(207) {
+  background-color: #0091ff;
+}
+ul li::after {
+  content: "#0091ff";
+}
+ul li:nth-child(208) {
+  background-color: #008cff;
+}
+ul li::after {
+  content: "#008cff";
+}
+ul li:nth-child(209) {
+  background-color: #0088ff;
+}
+ul li::after {
+  content: "#0088ff";
+}
+ul li:nth-child(210) {
+  background-color: #0084ff;
+}
+ul li::after {
+  content: "#0084ff";
+}
+ul li:nth-child(211) {
+  background-color: #0080ff;
+}
+ul li::after {
+  content: "#0080ff";
+}
+ul li:nth-child(212) {
+  background-color: #007bff;
+}
+ul li::after {
+  content: "#007bff";
+}
+ul li:nth-child(213) {
+  background-color: #0077ff;
+}
+ul li::after {
+  content: "#0077ff";
+}
+ul li:nth-child(214) {
+  background-color: #0073ff;
+}
+ul li::after {
+  content: "#0073ff";
+}
+ul li:nth-child(215) {
+  background-color: #006fff;
+}
+ul li::after {
+  content: "#006fff";
+}
+ul li:nth-child(216) {
+  background-color: #006aff;
+}
+ul li::after {
+  content: "#006aff";
+}
+ul li:nth-child(217) {
+  background-color: #0066ff;
+}
+ul li::after {
+  content: "#0066ff";
+}
+ul li:nth-child(218) {
+  background-color: #0062ff;
+}
+ul li::after {
+  content: "#0062ff";
+}
+ul li:nth-child(219) {
+  background-color: #005eff;
+}
+ul li::after {
+  content: "#005eff";
+}
+ul li:nth-child(220) {
+  background-color: #0059ff;
+}
+ul li::after {
+  content: "#0059ff";
+}
+ul li:nth-child(221) {
+  background-color: #0055ff;
+}
+ul li::after {
+  content: "#0055ff";
+}
+ul li:nth-child(222) {
+  background-color: #0051ff;
+}
+ul li::after {
+  content: "#0051ff";
+}
+ul li:nth-child(223) {
+  background-color: #004dff;
+}
+ul li::after {
+  content: "#004dff";
+}
+ul li:nth-child(224) {
+  background-color: #0048ff;
+}
+ul li::after {
+  content: "#0048ff";
+}
+ul li:nth-child(225) {
+  background-color: #0044ff;
+}
+ul li::after {
+  content: "#0044ff";
+}
+ul li:nth-child(226) {
+  background-color: #0040ff;
+}
+ul li::after {
+  content: "#0040ff";
+}
+ul li:nth-child(227) {
+  background-color: #003cff;
+}
+ul li::after {
+  content: "#003cff";
+}
+ul li:nth-child(228) {
+  background-color: #0037ff;
+}
+ul li::after {
+  content: "#0037ff";
+}
+ul li:nth-child(229) {
+  background-color: #0033ff;
+}
+ul li::after {
+  content: "#0033ff";
+}
+ul li:nth-child(230) {
+  background-color: #002fff;
+}
+ul li::after {
+  content: "#002fff";
+}
+ul li:nth-child(231) {
+  background-color: #002bff;
+}
+ul li::after {
+  content: "#002bff";
+}
+ul li:nth-child(232) {
+  background-color: #0026ff;
+}
+ul li::after {
+  content: "#0026ff";
+}
+ul li:nth-child(233) {
+  background-color: #0022ff;
+}
+ul li::after {
+  content: "#0022ff";
+}
+ul li:nth-child(234) {
+  background-color: #001eff;
+}
+ul li::after {
+  content: "#001eff";
+}
+ul li:nth-child(235) {
+  background-color: #001aff;
+}
+ul li::after {
+  content: "#001aff";
+}
+ul li:nth-child(236) {
+  background-color: #0015ff;
+}
+ul li::after {
+  content: "#0015ff";
+}
+ul li:nth-child(237) {
+  background-color: #0011ff;
+}
+ul li::after {
+  content: "#0011ff";
+}
+ul li:nth-child(238) {
+  background-color: #000dff;
+}
+ul li::after {
+  content: "#000dff";
+}
+ul li:nth-child(239) {
+  background-color: #0009ff;
+}
+ul li::after {
+  content: "#0009ff";
+}
+ul li:nth-child(240) {
+  background-color: #0004ff;
+}
+ul li::after {
+  content: "#0004ff";
+}
+ul li:nth-child(241) {
+  background-color: blue;
+}
+ul li::after {
+  content: "blue";
+}
+ul li:nth-child(242) {
+  background-color: #0400ff;
+}
+ul li::after {
+  content: "#0400ff";
+}
+ul li:nth-child(243) {
+  background-color: #0900ff;
+}
+ul li::after {
+  content: "#0900ff";
+}
+ul li:nth-child(244) {
+  background-color: #0d00ff;
+}
+ul li::after {
+  content: "#0d00ff";
+}
+ul li:nth-child(245) {
+  background-color: #1100ff;
+}
+ul li::after {
+  content: "#1100ff";
+}
+ul li:nth-child(246) {
+  background-color: #1500ff;
+}
+ul li::after {
+  content: "#1500ff";
+}
+ul li:nth-child(247) {
+  background-color: #1a00ff;
+}
+ul li::after {
+  content: "#1a00ff";
+}
+ul li:nth-child(248) {
+  background-color: #1e00ff;
+}
+ul li::after {
+  content: "#1e00ff";
+}
+ul li:nth-child(249) {
+  background-color: #2200ff;
+}
+ul li::after {
+  content: "#2200ff";
+}
+ul li:nth-child(250) {
+  background-color: #2600ff;
+}
+ul li::after {
+  content: "#2600ff";
+}
+ul li:nth-child(251) {
+  background-color: #2b00ff;
+}
+ul li::after {
+  content: "#2b00ff";
+}
+ul li:nth-child(252) {
+  background-color: #2f00ff;
+}
+ul li::after {
+  content: "#2f00ff";
+}
+ul li:nth-child(253) {
+  background-color: #3300ff;
+}
+ul li::after {
+  content: "#3300ff";
+}
+ul li:nth-child(254) {
+  background-color: #3700ff;
+}
+ul li::after {
+  content: "#3700ff";
+}
+ul li:nth-child(255) {
+  background-color: #3c00ff;
+}
+ul li::after {
+  content: "#3c00ff";
+}
+ul li:nth-child(256) {
+  background-color: #4000ff;
+}
+ul li::after {
+  content: "#4000ff";
+}
+ul li:nth-child(257) {
+  background-color: #4400ff;
+}
+ul li::after {
+  content: "#4400ff";
+}
+ul li:nth-child(258) {
+  background-color: #4800ff;
+}
+ul li::after {
+  content: "#4800ff";
+}
+ul li:nth-child(259) {
+  background-color: #4d00ff;
+}
+ul li::after {
+  content: "#4d00ff";
+}
+ul li:nth-child(260) {
+  background-color: #5100ff;
+}
+ul li::after {
+  content: "#5100ff";
+}
+ul li:nth-child(261) {
+  background-color: #5500ff;
+}
+ul li::after {
+  content: "#5500ff";
+}
+ul li:nth-child(262) {
+  background-color: #5900ff;
+}
+ul li::after {
+  content: "#5900ff";
+}
+ul li:nth-child(263) {
+  background-color: #5e00ff;
+}
+ul li::after {
+  content: "#5e00ff";
+}
+ul li:nth-child(264) {
+  background-color: #6200ff;
+}
+ul li::after {
+  content: "#6200ff";
+}
+ul li:nth-child(265) {
+  background-color: #6600ff;
+}
+ul li::after {
+  content: "#6600ff";
+}
+ul li:nth-child(266) {
+  background-color: #6a00ff;
+}
+ul li::after {
+  content: "#6a00ff";
+}
+ul li:nth-child(267) {
+  background-color: #6f00ff;
+}
+ul li::after {
+  content: "#6f00ff";
+}
+ul li:nth-child(268) {
+  background-color: #7300ff;
+}
+ul li::after {
+  content: "#7300ff";
+}
+ul li:nth-child(269) {
+  background-color: #7700ff;
+}
+ul li::after {
+  content: "#7700ff";
+}
+ul li:nth-child(270) {
+  background-color: #7b00ff;
+}
+ul li::after {
+  content: "#7b00ff";
+}
+ul li:nth-child(271) {
+  background-color: #8000ff;
+}
+ul li::after {
+  content: "#8000ff";
+}
+ul li:nth-child(272) {
+  background-color: #8400ff;
+}
+ul li::after {
+  content: "#8400ff";
+}
+ul li:nth-child(273) {
+  background-color: #8800ff;
+}
+ul li::after {
+  content: "#8800ff";
+}
+ul li:nth-child(274) {
+  background-color: #8c00ff;
+}
+ul li::after {
+  content: "#8c00ff";
+}
+ul li:nth-child(275) {
+  background-color: #9100ff;
+}
+ul li::after {
+  content: "#9100ff";
+}
+ul li:nth-child(276) {
+  background-color: #9500ff;
+}
+ul li::after {
+  content: "#9500ff";
+}
+ul li:nth-child(277) {
+  background-color: #9900ff;
+}
+ul li::after {
+  content: "#9900ff";
+}
+ul li:nth-child(278) {
+  background-color: #9d00ff;
+}
+ul li::after {
+  content: "#9d00ff";
+}
+ul li:nth-child(279) {
+  background-color: #a200ff;
+}
+ul li::after {
+  content: "#a200ff";
+}
+ul li:nth-child(280) {
+  background-color: #a600ff;
+}
+ul li::after {
+  content: "#a600ff";
+}
+ul li:nth-child(281) {
+  background-color: #aa00ff;
+}
+ul li::after {
+  content: "#aa00ff";
+}
+ul li:nth-child(282) {
+  background-color: #ae00ff;
+}
+ul li::after {
+  content: "#ae00ff";
+}
+ul li:nth-child(283) {
+  background-color: #b300ff;
+}
+ul li::after {
+  content: "#b300ff";
+}
+ul li:nth-child(284) {
+  background-color: #b700ff;
+}
+ul li::after {
+  content: "#b700ff";
+}
+ul li:nth-child(285) {
+  background-color: #bb00ff;
+}
+ul li::after {
+  content: "#bb00ff";
+}
+ul li:nth-child(286) {
+  background-color: #bf00ff;
+}
+ul li::after {
+  content: "#bf00ff";
+}
+ul li:nth-child(287) {
+  background-color: #c400ff;
+}
+ul li::after {
+  content: "#c400ff";
+}
+ul li:nth-child(288) {
+  background-color: #c800ff;
+}
+ul li::after {
+  content: "#c800ff";
+}
+ul li:nth-child(289) {
+  background-color: #cc00ff;
+}
+ul li::after {
+  content: "#cc00ff";
+}
+ul li:nth-child(290) {
+  background-color: #d000ff;
+}
+ul li::after {
+  content: "#d000ff";
+}
+ul li:nth-child(291) {
+  background-color: #d500ff;
+}
+ul li::after {
+  content: "#d500ff";
+}
+ul li:nth-child(292) {
+  background-color: #d900ff;
+}
+ul li::after {
+  content: "#d900ff";
+}
+ul li:nth-child(293) {
+  background-color: #dd00ff;
+}
+ul li::after {
+  content: "#dd00ff";
+}
+ul li:nth-child(294) {
+  background-color: #e100ff;
+}
+ul li::after {
+  content: "#e100ff";
+}
+ul li:nth-child(295) {
+  background-color: #e600ff;
+}
+ul li::after {
+  content: "#e600ff";
+}
+ul li:nth-child(296) {
+  background-color: #ea00ff;
+}
+ul li::after {
+  content: "#ea00ff";
+}
+ul li:nth-child(297) {
+  background-color: #ee00ff;
+}
+ul li::after {
+  content: "#ee00ff";
+}
+ul li:nth-child(298) {
+  background-color: #f200ff;
+}
+ul li::after {
+  content: "#f200ff";
+}
+ul li:nth-child(299) {
+  background-color: #f700ff;
+}
+ul li::after {
+  content: "#f700ff";
+}
+ul li:nth-child(300) {
+  background-color: #fb00ff;
+}
+ul li::after {
+  content: "#fb00ff";
+}
+ul li:nth-child(301) {
+  background-color: fuchsia;
+}
+ul li::after {
+  content: "fuchsia";
+}
+ul li:nth-child(302) {
+  background-color: #ff00fb;
+}
+ul li::after {
+  content: "#ff00fb";
+}
+ul li:nth-child(303) {
+  background-color: #ff00f7;
+}
+ul li::after {
+  content: "#ff00f7";
+}
+ul li:nth-child(304) {
+  background-color: #ff00f2;
+}
+ul li::after {
+  content: "#ff00f2";
+}
+ul li:nth-child(305) {
+  background-color: #ff00ee;
+}
+ul li::after {
+  content: "#ff00ee";
+}
+ul li:nth-child(306) {
+  background-color: #ff00ea;
+}
+ul li::after {
+  content: "#ff00ea";
+}
+ul li:nth-child(307) {
+  background-color: #ff00e6;
+}
+ul li::after {
+  content: "#ff00e6";
+}
+ul li:nth-child(308) {
+  background-color: #ff00e1;
+}
+ul li::after {
+  content: "#ff00e1";
+}
+ul li:nth-child(309) {
+  background-color: #ff00dd;
+}
+ul li::after {
+  content: "#ff00dd";
+}
+ul li:nth-child(310) {
+  background-color: #ff00d9;
+}
+ul li::after {
+  content: "#ff00d9";
+}
+ul li:nth-child(311) {
+  background-color: #ff00d5;
+}
+ul li::after {
+  content: "#ff00d5";
+}
+ul li:nth-child(312) {
+  background-color: #ff00d0;
+}
+ul li::after {
+  content: "#ff00d0";
+}
+ul li:nth-child(313) {
+  background-color: #ff00cc;
+}
+ul li::after {
+  content: "#ff00cc";
+}
+ul li:nth-child(314) {
+  background-color: #ff00c8;
+}
+ul li::after {
+  content: "#ff00c8";
+}
+ul li:nth-child(315) {
+  background-color: #ff00c4;
+}
+ul li::after {
+  content: "#ff00c4";
+}
+ul li:nth-child(316) {
+  background-color: #ff00bf;
+}
+ul li::after {
+  content: "#ff00bf";
+}
+ul li:nth-child(317) {
+  background-color: #ff00bb;
+}
+ul li::after {
+  content: "#ff00bb";
+}
+ul li:nth-child(318) {
+  background-color: #ff00b7;
+}
+ul li::after {
+  content: "#ff00b7";
+}
+ul li:nth-child(319) {
+  background-color: #ff00b3;
+}
+ul li::after {
+  content: "#ff00b3";
+}
+ul li:nth-child(320) {
+  background-color: #ff00ae;
+}
+ul li::after {
+  content: "#ff00ae";
+}
+ul li:nth-child(321) {
+  background-color: #ff00aa;
+}
+ul li::after {
+  content: "#ff00aa";
+}
+ul li:nth-child(322) {
+  background-color: #ff00a6;
+}
+ul li::after {
+  content: "#ff00a6";
+}
+ul li:nth-child(323) {
+  background-color: #ff00a2;
+}
+ul li::after {
+  content: "#ff00a2";
+}
+ul li:nth-child(324) {
+  background-color: #ff009d;
+}
+ul li::after {
+  content: "#ff009d";
+}
+ul li:nth-child(325) {
+  background-color: #ff0099;
+}
+ul li::after {
+  content: "#ff0099";
+}
+ul li:nth-child(326) {
+  background-color: #ff0095;
+}
+ul li::after {
+  content: "#ff0095";
+}
+ul li:nth-child(327) {
+  background-color: #ff0091;
+}
+ul li::after {
+  content: "#ff0091";
+}
+ul li:nth-child(328) {
+  background-color: #ff008c;
+}
+ul li::after {
+  content: "#ff008c";
+}
+ul li:nth-child(329) {
+  background-color: #ff0088;
+}
+ul li::after {
+  content: "#ff0088";
+}
+ul li:nth-child(330) {
+  background-color: #ff0084;
+}
+ul li::after {
+  content: "#ff0084";
+}
+ul li:nth-child(331) {
+  background-color: #ff0080;
+}
+ul li::after {
+  content: "#ff0080";
+}
+ul li:nth-child(332) {
+  background-color: #ff007b;
+}
+ul li::after {
+  content: "#ff007b";
+}
+ul li:nth-child(333) {
+  background-color: #ff0077;
+}
+ul li::after {
+  content: "#ff0077";
+}
+ul li:nth-child(334) {
+  background-color: #ff0073;
+}
+ul li::after {
+  content: "#ff0073";
+}
+ul li:nth-child(335) {
+  background-color: #ff006f;
+}
+ul li::after {
+  content: "#ff006f";
+}
+ul li:nth-child(336) {
+  background-color: #ff006a;
+}
+ul li::after {
+  content: "#ff006a";
+}
+ul li:nth-child(337) {
+  background-color: #ff0066;
+}
+ul li::after {
+  content: "#ff0066";
+}
+ul li:nth-child(338) {
+  background-color: #ff0062;
+}
+ul li::after {
+  content: "#ff0062";
+}
+ul li:nth-child(339) {
+  background-color: #ff005e;
+}
+ul li::after {
+  content: "#ff005e";
+}
+ul li:nth-child(340) {
+  background-color: #ff0059;
+}
+ul li::after {
+  content: "#ff0059";
+}
+ul li:nth-child(341) {
+  background-color: #ff0055;
+}
+ul li::after {
+  content: "#ff0055";
+}
+ul li:nth-child(342) {
+  background-color: #ff0051;
+}
+ul li::after {
+  content: "#ff0051";
+}
+ul li:nth-child(343) {
+  background-color: #ff004d;
+}
+ul li::after {
+  content: "#ff004d";
+}
+ul li:nth-child(344) {
+  background-color: #ff0048;
+}
+ul li::after {
+  content: "#ff0048";
+}
+ul li:nth-child(345) {
+  background-color: #ff0044;
+}
+ul li::after {
+  content: "#ff0044";
+}
+ul li:nth-child(346) {
+  background-color: #ff0040;
+}
+ul li::after {
+  content: "#ff0040";
+}
+ul li:nth-child(347) {
+  background-color: #ff003c;
+}
+ul li::after {
+  content: "#ff003c";
+}
+ul li:nth-child(348) {
+  background-color: #ff0037;
+}
+ul li::after {
+  content: "#ff0037";
+}
+ul li:nth-child(349) {
+  background-color: #ff0033;
+}
+ul li::after {
+  content: "#ff0033";
+}
+ul li:nth-child(350) {
+  background-color: #ff002f;
+}
+ul li::after {
+  content: "#ff002f";
+}
+ul li:nth-child(351) {
+  background-color: #ff002b;
+}
+ul li::after {
+  content: "#ff002b";
+}
+ul li:nth-child(352) {
+  background-color: #ff0026;
+}
+ul li::after {
+  content: "#ff0026";
+}
+ul li:nth-child(353) {
+  background-color: #ff0022;
+}
+ul li::after {
+  content: "#ff0022";
+}
+ul li:nth-child(354) {
+  background-color: #ff001e;
+}
+ul li::after {
+  content: "#ff001e";
+}
+ul li:nth-child(355) {
+  background-color: #ff001a;
+}
+ul li::after {
+  content: "#ff001a";
+}
+ul li:nth-child(356) {
+  background-color: #ff0015;
+}
+ul li::after {
+  content: "#ff0015";
+}
+ul li:nth-child(357) {
+  background-color: #ff0011;
+}
+ul li::after {
+  content: "#ff0011";
+}
+ul li:nth-child(358) {
+  background-color: #ff000d;
+}
+ul li::after {
+  content: "#ff000d";
+}
+ul li:nth-child(359) {
+  background-color: #ff0009;
+}
+ul li::after {
+  content: "#ff0009";
+}
+ul li:nth-child(360) {
+  background-color: #ff0004;
+}
+ul li::after {
+  content: "#ff0004";
+}
+
+@media (min-width: 600px) {
+  ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  ul li {
+    width: 12rem;
+    height: 12rem;
+  }
+}
+@media (min-width: 768px) {
+  ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+  }
+  ul li {
+    width: 15rem;
+    height: 15rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
