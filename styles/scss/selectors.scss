@@ -1,10 +1,17 @@
+:root {
+    --size: 10rem;
+}
+
 body {
     /* TODO: challenge - centralize */
+    display: grid;
+    place-items: center;
 }
 
 ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 2rem;
 
     max-width: 120rem;
@@ -16,26 +23,42 @@ ul > li > .ball {
     background-color: #cdcddc;
 
     /* TODO: challenge - centralize */
+    display: grid;
+    place-items: center;
 
     /* TODO: challenge - same width and height */
-    width: 20rem;
-    height: 20rem;
+    width: var(--size);
+    height: var(--size);
 
     /* TODO: challenge - oval vs pill */
-    border-radius: 50%;
+    border-radius: 999rem;
 
     font-size: 2.4rem;
     font-weight: bold;
 }
 
-ul > li > .ball--first {
+// child
+ul > li:first-child > .ball {
     background-color: cornflowerblue;
 }
 
-ul > li > .ball--colorful {
+ul > li:is(:nth-child(4), :nth-child(5)) > .ball {
     background-color: limegreen;
 }
 
-ul > li > .ball--last {
+ul > li:last-child > .ball {
+    background-color: orangered;
+}
+
+// of-type
+ul > li:first-of-type > .ball {
+    background-color: cornflowerblue;
+}
+
+ul > li:is(:nth-of-type(4), :nth-of-type(5)) > .ball {
+    background-color: limegreen;
+}
+
+ul > li:last-of-type > .ball {
     background-color: orangered;
 }

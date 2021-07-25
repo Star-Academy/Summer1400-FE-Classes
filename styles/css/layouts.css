@@ -3,14 +3,13 @@ body {
 }
 
 p {
-  /*display: inline-block;*/
-  max-width: 20ch;
-  /*width: 20rem;*/
-  /*height: 20rem;*/
+  color: black;
+  display: inline-block;
+  width: 20rem;
+  height: 20rem;
   margin: 0 auto 2rem;
-  padding: 2rem;
   /* TODO: challenge - same color as the property "color" */
-  outline: 0.5rem solid black;
+  outline: 0.5rem solid currentColor;
   font-size: 2.4rem;
 }
 
