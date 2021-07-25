@@ -1,6 +1,35 @@
 body {
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+button {
+  background-color: #3366cc;
+  color: #fafafa;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2952a3;
+}
+
+button.px {
+  width: 160px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 999px;
+  font-size: 24px;
+}
+
+button.rem {
+  width: 16rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 999rem;
+  font-size: 2.4rem;
 }
 
 /*# sourceMappingURL=rem.css.map */
