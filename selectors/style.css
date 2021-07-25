@@ -12,7 +12,7 @@ ul {
 	list-style: none;
 }
 
-ul > li > .box {
+ul > li > .ball {
 	background-color: #cdcddc;
 	
 	/* TODO: challenge - centralize */
@@ -21,17 +21,21 @@ ul > li > .box {
 	width: 20rem;
 	height: 20rem;
 	
+	/* TODO: challenge - oval vs pill */
+	border-radius: 50%;
+	
 	font-size: 2.4rem;
+	font-weight: bold;
 }
 
-ul > li > .box--first {
+ul > li > .ball--first {
 	background-color: cornflowerblue;
 }
 
-ul > li > .box--colorful {
+ul > li > .ball--colorful {
 	background-color: limegreen;
 }
 
-ul > li > .box--last {
+ul > li > .ball--last {
 	background-color: orangered;
 }
