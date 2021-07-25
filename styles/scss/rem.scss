@@ -9,6 +9,8 @@ button {
     background-color: hsl(220, 60%, 50%);
     color: hsl(0, 0%, 98%);
 
+    border: none;
+
     font-weight: bold;
 
     cursor: pointer;
@@ -23,7 +25,6 @@ button.px {
 
     padding: 10px 20px;
 
-    border: none;
     border-radius: 999px;
 
     font-size: 24px;
@@ -34,7 +35,6 @@ button.rem {
 
     padding: 1rem 2rem;
 
-    border: none;
     border-radius: 999rem;
 
     font-size: 2.4rem;

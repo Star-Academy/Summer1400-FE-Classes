@@ -1,0 +1,71 @@
+:root {
+  --gap--small: 0.5rem;
+  --gap--medium: 2rem;
+  --gap--large: 4rem;
+}
+
+body {
+  background-color: #e6e6e6;
+  padding: var(--gap--large);
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--gap--large);
+  max-width: 100%;
+  list-style: none;
+}
+
+ul > li {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s linear;
+}
+
+ul > li:hover {
+  transform: scale(1.01);
+}
+
+ul > li > img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+ul > li > .info {
+  padding: var(--gap--small) var(--gap--medium);
+}
+
+ul > li > .info > h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+ul > li > .info > .date {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+ul > li > .info > p {
+  font-size: 1.4rem;
+}
+
+ul > li > button {
+  background-color: #3366cc;
+  color: #fafafa;
+  margin-left: auto;
+  padding: var(--gap--small) var(--gap--medium);
+  border: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+ul > li > button:hover {
+  background-color: #2952a3;
+}
+
+/*# sourceMappingURL=responsive.css.map */
