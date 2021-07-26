@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/webstorm+all,visualstudiocode,node,sass
-# Edit at https://www.toptal.com/developers/gitignore?templates=webstorm+all,visualstudiocode,node,sass
+# Created by https://www.toptal.com/developers/gitignore/api/node,webstorm+all,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=node,webstorm+all,visualstudiocode
 
 ### Node ###
 # Logs
@@ -122,12 +122,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-### Sass ###
-.sass-cache/
-*.css.map
-*.sass.map
-*.scss.map
-
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -236,4 +230,4 @@ modules.xml
 # Sonarlint plugin
 .idea/sonarlint
 
-# End of https://www.toptal.com/developers/gitignore/api/webstorm+all,visualstudiocode,node,sass
+# End of https://www.toptal.com/developers/gitignore/api/node,webstorm+all,visualstudiocode
