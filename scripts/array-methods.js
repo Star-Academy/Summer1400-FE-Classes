@@ -29,7 +29,7 @@ const users = [
 ];
 
 // TODO: challenge - is there a better way?
-console.log(users);
+console.table(users);
 
 // numbers
 logSeparator('numbers');
@@ -40,11 +40,42 @@ console.log(numbers);
 // forEach
 logSeparator('forEach');
 
+const print = (x, i) => {
+    console.log(`${i}: ${x}`);
+};
+
+numbers.forEach(print);
+
 // filter
 logSeparator('filter');
+
+const largeNumbers = numbers.filter((x) => x > 20);
+console.log('largeNumbers', largeNumbers);
 
 // map
 logSeparator('map');
 
+// const diagrams = numbers.map((x) => '='.repeat(x));
+// diagrams.forEach((d) => console.log(d));
+
+numbers.map((x) => '='.repeat(x)).forEach((d) => console.log(d));
+
+const reports = users.map((u) => {
+    if (u.major === 'N/A') {
+        return `${u.firstName} ${u.lastName} currently is a/an ${u.job}.`;
+    } else {
+        return `${u.firstName} ${u.lastName} has studied ${u.major} and currently is a/an ${u.job}.`;
+    }
+});
+
+reports.forEach((r) => console.log(r));
+// reports.forEach(console.log);
+
 // reduce
 logSeparator('reduce');
+
+const result = numbers.reduce((sum, x) => {
+    return sum + x;
+});
+
+console.log(result);

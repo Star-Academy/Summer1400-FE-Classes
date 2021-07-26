@@ -18,7 +18,7 @@ var country = 'Iran';
 // initialize without declaring
 logSeparator('initialize without declaring');
 
-console.log('sum:', 2 + 3);
+tryCatch(() => console.log('sum:', a + b));
 
 a = 2;
 b = 3;

@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    
+
     margin: 0;
     padding: 0;
 }
@@ -8,7 +8,7 @@
 body {
     display: grid;
     place-items: center;
-    
+
     min-height: 100vh;
 }
 
@@ -16,38 +16,38 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px
+    gap: 10px;
 }
 
 .button {
     --color: rgba(26, 26, 26, 0.1);
     --size: 50px;
-    
+
     background: var(--color);
     opacity: 0.7;
-    
+
     position: relative;
-    
+
     width: var(--size);
     height: var(--size);
-    
+
     border-radius: 999px;
-    
+
     cursor: pointer;
 }
 
 .button::after {
     --size: 5px;
-    
-    content: "";
-    
+
+    content: '';
+
     position: absolute;
     left: 50%;
     top: 50%;
-    
+
     width: calc(var(--size) * 2);
     height: calc(var(--size) * 2);
-    
+
     border-top: var(--size) solid var(--color);
     border-right: var(--size) solid var(--color);
 }
@@ -65,8 +65,11 @@ body {
 }
 
 .slide {
+    background-size: contain;
     box-shadow: 0 0 10px rgba(26, 26, 26, 0.5);
-    
+
     width: 480px;
     height: 270px;
+
+    transition: background 1s ease-in-out;
 }
